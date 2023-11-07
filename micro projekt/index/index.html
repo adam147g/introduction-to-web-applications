@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micro project - main page</title>
+    <link rel="stylesheet" href="../css_files/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <header>
+    <div id="main-page-container">
+        <a href="index.html">
+        <img src="../images/bieszczady.jpg" alt="Strona główna" width="100%">
+        <div id="main-page-description">
+            <h3 id="main-page">Historia człowieka z Jasła</h3>
+        </div>
+        </a>
+    </div>
+  </header>
+
+  <nav>
+    <input id="hamburger" type="checkbox" />
+    <label class='menu-button-container' for="hamburger">
+        <div class='menu-button'></div>
+    </label>
+    <ul class="menu">
+      <li class="option"><a class="subpage" href="../city/jaslo.html" title="">Miasto Jasło</a></>
+      <li class="option"><a class="subpage" href="../hobby/hobby.html">Zainteresowania</a></li>
+      <li class="option"><a class="subpage" href="../places/miejsca.html">Gdzie byłem</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h1 class="title">To jestem ja! :-)</h1>
+
+    <div class="image-center">
+        <div class="image-container" style="width:60vw;">
+            <img src="../images/index/ja.jpg" alt="Moje zdjęcie" width="50%" style="border-radius: 10px;">
+            <p class="image-description" style="font-size: 80px;">To jestem ja</p>
+        </div>
+    </div>
+    <h1 class="subtitle">Witaj na stronie poświęconej mnie</h1><hr>
+    <article class="description">
+        Witaj na mojej osobistej stronie internetowej, która jest częścią projektu wprowadzenia do aplikacji internetowych na AGH. </br>Jestem Adam Górka. Urodziłem się 4 kwietnia 2001 roku w Jaśle. Jestem studentem Informatyki na Akademii Górniczo-Hutniczej w Krakowie.</br>
+        Na tej stronie znajdziesz informacje o mnie, moje zainteresowania, umiejętności i doświadczenie. Chciałbym podzielić się z Tobą swoją pasją do tworzenia aplikacji internetowych oraz przedstawić projekt, który miałem okazję stworzyć w trakcie nauki na AGH.</br>
+        Aby dowiedzieć się więcej o moich zainteresowaniach, mieście z którego pochodzę, czy gdzie ostatnio przebywałem podczas wakacji, skorzystaj z nawigacji, na górze strony (ten fioletowy pasek)</br>
+        Zapraszam również do kontaktowania się ze mną za sprawą mediów społecznościowych. Wszystie, które posiadam znajdują się w dolnej części strony.
+    </article>
+
+
+
+
+  </section>
+
+  <footer>
+    <div class="link-container">
+        <div class="link">
+            <p><a href="https://github.com/adam147g"><i class="fa fa-github"></i>adam147g</a></p>
+        </div> 
+        <div class="link">
+            <p><a href="https://www.instagram.com/a_gork_a/"><i class="fa fa-instagram"></i>a_gork_a</a></p>
+        </div>
+        <div class="link">
+            <p><a href="https://www.facebook.com/adasko09/"><i class="fa fa-facebook"></i>Adam Górka</a></p>
+        </div>    
+        <div class="link">
+            <p><a href="https://twitter.com/adam147g"><i class="fa fa-twitter"></i>adam147g</a></p>
+        </div>
+        <div class="link">
+            <p><i class="fa fa-phone"></i>516 584 517</p>
+        </div>
+    </div>
+    <form id="contact-form">
+        <h4>Formularz Kontaktowy</h4>
+        <label for="name">Imię i Nazwisko</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="phone">Numer telefonu:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="message">Wiadomość:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button id="sendButton">Wyślij</button>
+    </form>
+      
+</footer>
+
+<script src="../js_files/myscript.js"></script>
+</body>
+</html>
