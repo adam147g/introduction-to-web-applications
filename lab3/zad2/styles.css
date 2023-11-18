@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+button {
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 15px;
+    margin: 10px
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 700ms ease;
+}
+
+#input-filter{
+    margin: 10px;
+    width: 270px;
+    height: 30px;
+}
