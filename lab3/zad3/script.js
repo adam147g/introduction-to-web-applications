@@ -6,26 +6,7 @@ var points = document.querySelector("#score > p");
 var finished = false;
 var intervals = 1000;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    var hearts = document.querySelectorAll('#heart-container img');
+var hearts = document.querySelectorAll('#heart-container img');
 
 run();
 

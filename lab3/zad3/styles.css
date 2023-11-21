@@ -20,6 +20,10 @@ nav {
     padding-right: 40px;
 }
 
+#heart-container {
+    user-select: none;
+}
+
 .heart {
     height: 40px;
 }
@@ -30,7 +34,10 @@ nav {
     align-items: center;
     width: 100px;
     height: 100px;
+    user-select: none;
 }
+
+  
 
 #score>p {
     font-family: Consolas, serif;
@@ -43,7 +50,7 @@ nav {
 .zombie {
     background-image: url("images/walkingdead.png");
     width: 200px;
-    height: 312px;
+    height: 300px;
     position: absolute;
     left: 110%;
 }
