@@ -64,10 +64,3 @@ if __name__ == '__main__':
         db.session.commit()
 
     app.run(debug=True)
-
-
-# python app.py
-# http://127.0.0.1:5000/persons
-# http://127.0.0.1:5000/persons?name=Jan&surname=Kowalski&job=Dev
-# http://127.0.0.1:5000/persons
-# http://127.0.0.1:5000/persons/2
