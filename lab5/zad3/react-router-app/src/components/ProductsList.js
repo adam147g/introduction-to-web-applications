@@ -1,21 +1,24 @@
+// src/components/ProductsList.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const ProductsList = ({ products }) => {
+const ProductsList = ({ products, loggedIn }) => {
   return (
     <div>
-      <h2>Lista Produktów</h2>
-      <ul>
-        {products.map(product => (
-          <li key={product.id}>
-            <strong>{product.name}</strong> - ${product.price}
-            <p>{product.description} 
+      <h2>Products List</h2>
+      {products.map((product) => (
+        <div key={product.id}>
+          <h3>{product.name}</h3>
+          <p>{product.description}</p>
+          <p>Price: ${product.price}</p>
+          {loggedIn && (
             <Link to={`/edit/${product.id}`}>
-              <button>Edytuj</button>
-            </Link></p>
-          </li>
-        ))}
-      </ul>
+              <button>Edit</button>
+            </Link>
+          )}
+          <hr />
+        </div>
+      ))}
     </div>
   );
 };

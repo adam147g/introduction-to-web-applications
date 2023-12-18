@@ -1,3 +1,4 @@
 **/.hintrc
 notes.docx
 .idea/
+**/node_modules/
