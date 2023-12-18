@@ -1,4 +1,3 @@
-// src/components/EditProduct.js
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import EditProductForm from './EditProductForm';

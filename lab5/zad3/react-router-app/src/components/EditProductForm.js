@@ -1,4 +1,3 @@
-// src/components/EditProductForm.js
 import React, { useState } from 'react';
 
 const EditProductForm = ({ product, onSave }) => {
